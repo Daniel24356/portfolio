@@ -1,0 +1,728 @@
+.percentage-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 140px;
+    margin-bottom: 50px;
+    row-gap: 30px;
+ }
+ .load-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:290px;
+    margin-bottom: 7px;
+ }
+ .load-box h4{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .load-div{
+    display: flex;
+ }
+ .fir-color{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 215px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-color{
+    background-color: gainsboro;
+    width: 90px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ .fir-colors{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 265px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-colors{
+    background-color: gainsboro;
+    width: 40px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ .fir-colorss{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-colorss{
+    background-color: gainsboro;
+    width: 105px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ .fir-colorsss{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 220px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-colorsss{
+    background-color: gainsboro;
+    width: 85px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ .fir-colorssss{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 185px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-colorssss{
+    background-color: gainsboro;
+    width: 120px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ .fir-colorsssss{
+    background-color: #0c0c1d;
+    height: 10px;
+    width: 260px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius:5px;
+ }
+ .sec-colorsssss{
+    background-color: gainsboro;
+    width: 45px;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+ }
+ @media screen and (max-width:1128px){
+   .percentage-box{
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 50px;
+      width: 800px;
+      margin: auto;
+      margin-top: 25px;
+   }
+   .load-box{
+      width: 390px;
+   }
+   .fir-color{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 315px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-color{
+      background-color: gainsboro;
+      width: 90px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colors{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 365px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colors{
+      background-color: gainsboro;
+      width: 40px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 300px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorss{
+      background-color: gainsboro;
+      width: 105px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 320px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsss{
+      background-color: gainsboro;
+      width: 85px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 285px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorssss{
+      background-color: gainsboro;
+      width: 120px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 360px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsssss{
+      background-color: gainsboro;
+      width: 45px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+
+ }
+ @media screen and (max-width:1035px){
+   .percentage-box{
+       width: 800px;
+   }
+ }
+ @media screen and (max-width:982px){
+   .percentage-box{
+      width: 720px;
+      column-gap: 15px;
+   }
+   .load-box{
+      width: 280px;
+   }
+   .fir-color{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 215px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-color{
+      background-color: gainsboro;
+      width: 90px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colors{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 265px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colors{
+      background-color: gainsboro;
+      width: 40px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 200px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorss{
+      background-color: gainsboro;
+      width: 105px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 220px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsss{
+      background-color: gainsboro;
+      width: 85px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 185px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorssss{
+      background-color: gainsboro;
+      width: 120px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 260px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsssss{
+      background-color: gainsboro;
+      width: 45px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+
+ }
+
+ @media screen and (max-width:787px){
+   .percentage-box{
+      width: 620px;
+   }
+ }
+ @media screen and (max-width:664px){
+   .percentage-box{
+      width: 550px;
+      grid-template-columns: repeat(1,1fr);
+   }
+   .load-box{
+      width: 490px;
+   }
+   .fir-color{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 425px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-color{
+      background-color: gainsboro;
+      width: 90px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colors{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 475px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colors{
+      background-color: gainsboro;
+      width: 40px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 410px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorss{
+      background-color: gainsboro;
+      width: 105px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 430px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsss{
+      background-color: gainsboro;
+      width: 85px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 395px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorssss{
+      background-color: gainsboro;
+      width: 120px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 470px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsssss{
+      background-color: gainsboro;
+      width: 45px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+ }
+ @media screen and (max-width:584px){
+   .percentage-box{
+      width: 470px;
+   }
+   .load-box{
+      width: 420px;
+   }
+   .fir-color{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 360px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-color{
+      background-color: gainsboro;
+      width: 90px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colors{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 410px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colors{
+      background-color: gainsboro;
+      width: 40px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 345px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorss{
+      background-color: gainsboro;
+      width: 105px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 365px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsss{
+      background-color: gainsboro;
+      width: 85px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 330px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorssss{
+      background-color: gainsboro;
+      width: 120px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 405px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsssss{
+      background-color: gainsboro;
+      width: 45px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+ }
+ @media screen and (max-width:511px){
+   .percentage-box{
+      width: 400px;
+   }
+   .load-box{
+      width: 360px;
+   }
+   .fir-color{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 290px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-color{
+      background-color: gainsboro;
+      width: 90px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colors{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 340px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colors{
+      background-color: gainsboro;
+      width: 40px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 275px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorss{
+      background-color: gainsboro;
+      width: 105px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 295px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsss{
+      background-color: gainsboro;
+      width: 85px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 260px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorssss{
+      background-color: gainsboro;
+      width: 120px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+   .fir-colorsssss{
+      background-color: #0c0c1d;
+      height: 10px;
+      width: 335px;
+      border-top-left-radius: 5px;
+      border-top-left-radius:5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-left-radius:5px;
+   }
+   .sec-colorsssss{
+      background-color: gainsboro;
+      width: 45px;
+      height: 10px;
+      border-top-right-radius: 5px;
+      border-top-right-radius:5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-right-radius:5px;
+   }
+}

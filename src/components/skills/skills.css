@@ -1,0 +1,227 @@
+.skill{
+    margin: 200px 140px;
+    margin-bottom: 25px;
+}
+.skill-indiv{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 35px;
+    width: 500px;
+    margin-top: 40px;
+}
+.skill h1{
+    font-size: 40px;
+    color: #0c0c1d;
+}
+.c-icons{
+    font-size: 120px;
+    color: #0c0c1d;
+}
+.java-icons{
+    font-size: 38px;
+    font-weight: 800;
+    color: #0c0c1d;
+}
+.css-box{
+    display: flex;
+    align-items: center;
+}
+.skill-iconhtml{
+    font-size: 120px;
+    color: #0c0c1d;
+}
+.skill-icons{
+    font-size: 100px;
+    color: #0c0c1d;
+}
+.skill-iconcss{
+    font-size: 80px;
+    color: #0c0c1d;
+}
+.skill-iconsql{
+    font-size: 67px;
+    color: #0c0c1d;
+}
+.skill-icongit{
+    font-size: 80px;
+    color: #0c0c1d;
+}
+@media screen and (max-width:1128px){
+    .skill-indiv{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .skill{
+        margin: auto;
+        margin-top: 180px;
+        width: 880px;
+    }
+    .c-icons{
+        font-size: 135px;
+        color: #0c0c1d;
+    }
+    .java-icons{
+        font-size: 53px;
+        font-weight: 800;
+        color: #0c0c1d;
+    }
+    .css-box{
+        display: flex;
+        align-items: center;
+    }
+    .skill-iconhtml{
+        font-size: 135px;
+        color: #0c0c1d;
+    }
+    .skill-icons{
+        font-size: 115px;
+        color: #0c0c1d;
+    }
+    .skill-iconcss{
+        font-size: 95px;
+        color: #0c0c1d;
+    }
+    .skill-iconsql{
+        font-size: 82px;
+        color: #0c0c1d;
+    }
+    .skill-icongit{
+        font-size: 95px;
+        color: #0c0c1d;
+    }
+
+  }
+  @media screen and (max-width:1035px){
+    .skill{
+        width: 800px;
+    }
+  }
+  @media screen and (max-width:982px){
+    .skill{
+       width: 720px;
+    }
+    .c-icons{
+        font-size: 115px;
+        color: #0c0c1d;
+    }
+    .java-icons{
+        font-size: 33px;
+        font-weight: 800;
+        color: #0c0c1d;
+    }
+    .css-box{
+        display: flex;
+        align-items: center;
+    }
+    .skill-iconhtml{
+        font-size: 115px;
+        color: #0c0c1d;
+    }
+    .skill-icons{
+        font-size: 95px;
+        color: #0c0c1d;
+    }
+    .skill-iconcss{
+        font-size: 75px;
+        color: #0c0c1d;
+    }
+    .skill-iconsql{
+        font-size: 62px;
+        color: #0c0c1d;
+    }
+    .skill-icongit{
+        font-size: 75px;
+        color: #0c0c1d;
+    }
+  }
+  @media screen and (max-width:787px){
+    .skill{
+       width: 620px;
+    }
+    .skill-indiv{
+        grid-template-columns: repeat(3,1fr);
+    }
+  }
+  @media screen and (max-width:664px){
+    .skill{
+       width: 550px;
+    }
+    .c-icons{
+        font-size: 95px;
+        color: #0c0c1d;
+    }
+    .java-icons{
+        font-size: 23px;
+        font-weight: 800;
+        color: #0c0c1d;
+    }
+    .css-box{
+        display: flex;
+        align-items: center;
+    }
+    .skill-iconhtml{
+        font-size: 95px;
+        color: #0c0c1d;
+    }
+    .skill-icons{
+        font-size: 75px;
+        color: #0c0c1d;
+    }
+    .skill-iconcss{
+        font-size: 55px;
+        color: #0c0c1d;
+    }
+    .skill-iconsql{
+        font-size: 42px;
+        color: #0c0c1d;
+    }
+    .skill-icongit{
+        font-size: 55px;
+        color: #0c0c1d;
+    }
+  }
+  @media screen and (max-width:584px){
+    .skill{
+       width: 470px;
+    }
+  }
+  @media screen and (max-width:511px){
+    .skill{
+       width: 400px;
+    }
+    .skill-indiv{
+        width: 400px;
+    }
+    .c-icons{
+        font-size: 70px;
+        color: #0c0c1d;
+    }
+    .java-icons{
+        font-size: 20px;
+        font-weight: 800;
+        color: #0c0c1d;
+    }
+    .css-box{
+        display: flex;
+        align-items: center;
+    }
+    .skill-iconhtml{
+        font-size: 70px;
+        color: #0c0c1d;
+    }
+    .skill-icons{
+        font-size: 50px;
+        color: #0c0c1d;
+    }
+    .skill-iconcss{
+        font-size: 30px;
+        color: #0c0c1d;
+    }
+    .skill-iconsql{
+        font-size: 20px;
+        color: #0c0c1d;
+    }
+    .skill-icongit{
+        font-size: 30px;
+        color: #0c0c1d;
+    }
+  }

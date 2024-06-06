@@ -1,0 +1,137 @@
+ .contact-div{
+    margin: 60px 140px;
+ }
+ .con-text{
+    font-size: 40px;
+    color: #0c0c1d;
+ }
+ .contact-indivs{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    width: 1000px;
+ }
+ .contact-indivs h1{
+    font-size: 70px;
+    /* font-family: Arial; */
+    color: #0c0c1d;
+ }
+ .mail-div{
+    margin-top: 25px;
+ }
+ .mail-div h3{
+    font-size: 21px;
+    color: #0c0c1d;
+ }
+ @media screen and (max-width:1116px){
+    .contact-div{
+      width: 900px;
+      margin: auto;
+      margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:1007px){
+   .contact-div{
+     width: 800px;
+   }
+}
+@media screen and (max-width:908px){
+   .contact-div{
+     width: 700px;
+   }
+}
+@media screen and (max-width:774px){
+   .contact-div{
+     width: 600px;
+   }
+   .contact-indivs{
+      gap: 30px;
+      width: 700px;
+   }
+}
+@media screen and (max-width:745px){
+   .contact-div{
+     width: 600px;
+   }
+   .to-div{
+      display: flex;
+      gap: 10px;
+   }
+   .contact-indivs h1{
+      font-size: 60px;
+   }
+   .contact-indivs{
+      flex-direction: column;
+      gap: 30px;
+      width: 620px;
+   }
+   .mail-grid{
+    display: flex;
+    gap: 65px;
+   }
+}
+@media screen and (max-width:644px){
+   .contact-div{
+      width: 500px;
+    }
+    .contact-indivs{
+      width: 520px;
+   }
+   .contact-indivs h1{
+      font-size: 55px;
+   }
+}
+@media screen and (max-width:559px){
+   .contact-div{
+      width:400px;
+    }
+    .contact-indivs{
+      width: 400px;
+   }
+   .contact-indivs h1{
+      font-size: 50px;
+   }
+   .mail-grid{
+      display: flex;
+      gap: 45px;
+     }
+     .con-text{
+     text-align: center;
+     font-size: 50px;
+     }
+}
+@media screen and (max-width:488px){
+   .contact-div{
+      width:350px;
+    }
+    .contact-indivs{
+      width: 360px;
+   }
+   .contact-indivs h1{
+      font-size: 40px;
+   }
+   .mail-grid{
+      gap: 15px;
+     }
+}
+@media screen and (max-width:423px){
+   .contact-div{
+      width:350px;
+    }
+    .contact-indivs{
+      width: 350px;
+   }
+   .contact-indivs h1{
+      font-size: 45px;
+   }
+   .mail-grid{
+      gap: 15px;
+     }
+}
+@media screen and (max-width:414px){
+   .contact-indivs h1{
+      font-size: 42px;
+   }
+}

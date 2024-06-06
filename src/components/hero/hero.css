@@ -1,0 +1,44 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0;
+}
+.hero h3{
+ font-size: 22px;
+ color: #0c0c1d;
+}
+/* .hero h1{
+    font-size: 67px;
+    color: #0c0c1d;
+} */
+.motion-name{
+    font-size: 67px;
+    color: #0c0c1d;
+}
+.hero strong{
+    color: white;
+}
+@media screen and (max-width:1170px){
+   .hero{
+    margin: 100px 0;
+   }
+ 
+  }
+  @media screen and (max-width:755px){
+    .hero{
+        margin: 90px 0;
+       }
+       .hero{
+        height: 20vh;
+     }
+    .motion-name{
+        font-size: 58px;
+    } 
+  }
+  
+ 
+
+
+  

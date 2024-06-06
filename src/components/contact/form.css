@@ -1,0 +1,112 @@
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.name-f{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #0c0c1d;
+    padding-left: 25px;
+    color: #0c0c1d;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.name-f::placeholder{
+    font-size: 14px;
+    color: #0c0c1d;
+}
+.message-div{
+    height: 170px;
+    width: 500px;
+    border: 1px solid #0c0c1d;
+    outline: none;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-left: 20px;
+   
+}
+.message-f{
+   width: 500;
+   border: none;
+   background-color: transparent;
+   outline: none;
+   font-size: 14px;
+   color: #0c0c1d;
+} 
+.message-f::placeholder{
+    color: #0c0c1d;
+    font-size: 14px;
+}
+.btn-message{
+    width: 500px;
+    height: 50px;
+    background-color: #0c0c1d;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media screen and (max-width:1007px){
+    .name-f{
+     width: 400px;
+    }
+    .message-div{
+     width: 400px;
+    }
+    .btn-message{
+     width: 400px;
+    }
+ }
+ @media screen and (max-width:908px){
+    .name-f{
+        width: 300px;
+       }
+       .message-div{
+        width: 300px;
+       }
+       .btn-message{
+        width: 300px;
+       }
+ }
+ @media screen and (max-width:774px){
+    .form-div{
+        gap: 15px;
+    }
+ }
+ @media screen and (max-width:745px){
+    .name-f{
+        width: 500px;
+       }
+       .message-div{
+        width: 500px;
+       }
+       .btn-message{
+        width: 500px;
+       }
+ }
+ @media screen and (max-width:554px){
+    .name-f{
+        width: 450px;
+       }
+       .message-div{
+        width: 450px;
+       }
+       .btn-message{
+        width: 450px;
+       }
+ }
+ @media screen and (max-width:488px){
+    .name-f{
+        width: 400px;
+       }
+       .message-div{
+        width: 400px;
+       }
+       .btn-message{
+        width: 400px;
+       }
+ }
