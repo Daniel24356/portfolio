@@ -45,6 +45,15 @@ const Skill = () => {
                 <FaNode className='skill-icons'/>
             </div>
             <div>
+                <RiNextjsFill className='skill-icons'/>
+            </div>
+            <div>
+                <DiMongodb className='skill-icons'/>
+            </div>
+            <div>
+                <FaAngular className='skill-icons'/>
+            </div>
+            <div>
                 <p className='c-icons'>C</p>
             </div>
             <div className='css-box'>

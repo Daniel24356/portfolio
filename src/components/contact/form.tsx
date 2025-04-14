@@ -18,7 +18,7 @@ const Form = () => {
         'AxKo04wWaysL4uR5_'      // Replace with your actual EmailJS public key
       )
       .then(
-        (result) => {
+        () => {
           alert('Message sent successfully!');
           form.current?.reset();
         },

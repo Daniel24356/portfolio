@@ -29,7 +29,7 @@
 
                 <div>
                     <div className="load-box">
-                        <h4>Github</h4>
+                        <h4>Mongo Db</h4>
                         <h4>83%</h4>
                     </div>
                     <div className="load-div">
@@ -64,6 +64,39 @@
                     <div className="load-box">
                         <h4>React</h4>
                         <h4>94%</h4>
+                    </div>
+                    <div className="load-div">
+                        <div className="fir-colorsssss"></div>
+                        <div className="sec-colorsssss"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="load-box">
+                        <h4>Angular</h4>
+                        <h4>92%</h4>
+                    </div>
+                    <div className="load-div">
+                        <div className="fir-colorsssss"></div>
+                        <div className="sec-colorsssss"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="load-box">
+                        <h4>Next js</h4>
+                        <h4>95%</h4>
+                    </div>
+                    <div className="load-div">
+                        <div className="fir-colorsssss"></div>
+                        <div className="sec-colorsssss"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="load-box">
+                        <h4>Node js</h4>
+                        <h4>91%</h4>
                     </div>
                     <div className="load-div">
                         <div className="fir-colorsssss"></div>
