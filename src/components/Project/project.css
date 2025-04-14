@@ -110,6 +110,12 @@
  .pro-m{
     margin-bottom: 180px;
  }
+ @media screen and (max-width:1500px){
+   .project-div{
+      margin: 180px auto;
+      width: 1000px;
+   }
+ }
  @media screen and (max-width:1044px){
    .project-div{
      width: 790px;
@@ -210,5 +216,30 @@
    }
    .text-pro{
       width: 400px;
+   }
+ }
+ @media screen and (max-width:400px){
+   .project-div{
+      width: 350px;
+      /* margin: 140px 0px; */
+    }
+   .project-indiv img{
+      width: 370px;
+      height: 350px;
+   }
+   .text-pro{
+      width: 400px;
+   }
+   .project-indiv h1{
+      margin-bottom: 20px;
+      font-size: 32px;
+      font-weight: 500;
+      color: #0c0c1d;
+   }
+   .project-indiv p{
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #0c0c1d;
+      width: 350px;
    }
  }

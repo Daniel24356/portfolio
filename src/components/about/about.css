@@ -11,6 +11,13 @@
     color: #0c0c1d;
     margin-top: 30px;
  }
+
+ @media screen and (max-width:1500px){
+   .about-box{
+      margin: 70px auto;
+   }
+ }
+
  @media screen and (max-width:1128px){
    .header-sec p{
       /* color: white; */
@@ -51,5 +58,10 @@
  @media screen and (max-width:511px){
    .about-box{
       width: 400px;
+   }
+ }
+ @media screen and (max-width:400px){
+   .about-box{
+      width: 360px;
    }
  }

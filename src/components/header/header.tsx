@@ -56,8 +56,8 @@ const Header = () => {
                 </a>
             </ul>
             <div className='menu-bar' onClick={() => {
-                setOpen(!open)
-            }}>
+                setOpen(!open) }}
+            >
                <IoMenuSharp className='menu-icon'/>
                </div>
         </div>

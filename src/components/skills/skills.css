@@ -46,6 +46,15 @@
     font-size: 80px;
     color: #0c0c1d;
 }
+
+@media screen and (max-width:1500px){
+    .skill{
+        margin: 200px auto;
+        margin-bottom: 25px;
+        width: 1000px;
+    }
+}
+
 @media screen and (max-width:1128px){
     .skill-indiv{
         grid-template-columns: repeat(4,1fr);
@@ -225,3 +234,8 @@
         color: #0c0c1d;
     }
   }
+  @media screen and (max-width:400px){
+    .skill{
+       width: 370px;
+    }
+}

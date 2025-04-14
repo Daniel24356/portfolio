@@ -110,3 +110,14 @@
         width: 400px;
        }
  }
+ @media screen and (max-width:400px){
+    .name-f{
+        width: 370px;
+       }
+       .message-div{
+        width: 370px;
+       }
+       .btn-message{
+        width: 370px;
+       }
+ }

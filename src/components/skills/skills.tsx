@@ -11,6 +11,9 @@ import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiMongodb } from "react-icons/di";
+import { FaAngular } from "react-icons/fa";
 
 const Skill = () => {
     return(

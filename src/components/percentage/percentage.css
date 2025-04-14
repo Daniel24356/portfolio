@@ -127,6 +127,18 @@
     border-bottom-right-radius: 5px;
     border-bottom-right-radius:5px;
  }
+
+ @media screen and (max-width:1500px){
+   .percentage-box{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin: 0px auto;
+      margin-bottom: 50px;
+      row-gap: 30px;
+      width: 1000px;
+   }
+ }
+ 
  @media screen and (max-width:1128px){
    .percentage-box{
       grid-template-columns: repeat(2,1fr);
@@ -725,4 +737,9 @@
       border-bottom-right-radius: 5px;
       border-bottom-right-radius:5px;
    }
+}
+@media screen and (max-width:400px){
+    .percentage-box{
+      width: 375px;
+    }
 }

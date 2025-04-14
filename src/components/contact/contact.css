@@ -25,6 +25,14 @@
     font-size: 21px;
     color: #0c0c1d;
  }
+
+ @media screen and (max-width:1450px){
+   .contact-div{
+      margin: 60px auto;
+      width: 900px;
+   }
+}
+
  @media screen and (max-width:1116px){
     .contact-div{
       width: 900px;
@@ -133,5 +141,18 @@
 @media screen and (max-width:414px){
    .contact-indivs h1{
       font-size: 42px;
+   }
+}
+@media screen and (max-width:400px){
+   .contact-indivs h1{
+      font-size: 38px;
+      text-align: center;
+   }
+   .mail-grid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .contact-indivs{
+      margin-top: 30px;
    }
 }
