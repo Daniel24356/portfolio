@@ -8,7 +8,7 @@ const Form = () => {
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
-
+    
     if (!form.current) return;
 
     emailjs
