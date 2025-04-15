@@ -103,23 +103,23 @@ const Project = () => {
                      </p>
                      <div className='pro-skills'>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Emmanuelbagbi/Googledocs">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/google-docs-clone">
                            <div className='html-btn'>Next js</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Emmanuelbagbi/Googledocs">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/google-docs-clone">
                            <div className='js-btn'>Typescript</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Emmanuelbagbi/Googledocs">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/google-docs-clone">
                            <div className='github-btn'>Node js</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Emmanuelbagbi/Googledocs">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/google-docs-clone">
                            <div className='js-btn'>Mongo Db</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Emmanuelbagbi/Googledocs">
+                           rel="noopener noreferrer" href="https://google-docs-clone-bay.vercel.app/">
                            <div className='github-btn'>Visit</div>
                         </a>
 
@@ -206,8 +206,9 @@ const Project = () => {
                            <div className='github-btn'>Mongo Db</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Uchenna99/Live-Chat-Frontend"></a>
-                        <div className='github-btn'>Visit</div>
+                           rel="noopener noreferrer" href="https://github.com/Uchenna99/Live-Chat-Backend-2">
+                           <div className='github-btn'>Visit</div>
+                        </a>
                      </div>
                   </div>
 
@@ -247,8 +248,10 @@ const Project = () => {
                            <div className='github-btn'>Mongo Db</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Daniel24356/Evtol-new"></a>
-                        <div className='github-btn'>Visit</div>
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/Evtol-new">
+ <div className='github-btn'>Visit</div>
+                           </a>
+                       
                      </div>
                   </div>
 
@@ -288,8 +291,10 @@ const Project = () => {
                            <div className='github-btn'>Springboot</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://banking-angular.vercel.app/"></a>
-                        <div className='github-btn'>Visit</div>
+                           rel="noopener noreferrer" href="https://banking-angular.vercel.app/">
+                               <div className='github-btn'>Visit</div>
+                           </a>
+                       
                      </div>
                   </div>
 
