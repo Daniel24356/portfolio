@@ -51,7 +51,7 @@ const Project = () => {
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <a href="">
+                  <a href="https://fameplacehotels.com/">
                      <img src="/Logo.jpeg" alt="" />
                   </a>
                  
