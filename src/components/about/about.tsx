@@ -1,26 +1,32 @@
-   import './about.css'
+import './about.css'
 
-   const About = () => {
-    return (
-        <>
-        <div className='about-box'>
-            <h1>About Me</h1>
-            <p>During my holiday periods, I spent most of my time behind a computer screen, playing games, playing with corel draw and always had talent for drawing.
-                With the amount of time I spent playing games, I began to wonder how these games where created ,the people who created them and their career.
-                After researching and having a consultation with my parents, I realized I had the passion, interest and skills to become a software developer.
-            </p>
-            <p>
-                With this, I changed from someone who played games everytime to a dynamic individual with a keen interest in software development.
-                Driven by world builders like Elon Musk and Blue Gate , I kept on striving to make the world a better place with my inventions and ideas.
-                I am dedicated to improving my skills and knowledge for both personal and soceital growth.
-            </p>
-            <p>
-           In conclusion, I love what i do and am going to keep working hard to achieve my goals and see where my career leads me in the future.
-           In hopes to reach greater heights in life and making my country ,Nigeria and the world a better place.
-            </p>
-        </div>
-        </>
-    )
-   }
+const About = () => {
+  return (
+    <>
+      <div className='about-box'>
+        <h1>About Me</h1>
+        <p>
+          From an early age, I spent much of my holiday time behind a computer—whether playing games,
+          experimenting with CorelDRAW, or exploring my natural talent for drawing. My curiosity about
+          how games were built soon turned into a deeper fascination with the people who created them
+          and the career paths they pursued.
+        </p>
+        <p>
+          After researching and having thoughtful discussions with my parents, I realized I had the
+          passion, interest, and skills to pursue software development. Over time, I transformed from
+          someone who only consumed technology into someone driven to create it. Inspired by innovators
+          and world-builders like Elon Musk and Bill Gates, I remain motivated to bring ideas to life
+          that can make a meaningful impact.
+        </p>
+        <p>
+          Today, I am dedicated to continuously improving my knowledge and skills—not only for personal
+          growth but also for contributing to society. I believe in the power of technology to shape a
+          better future, and I am determined to keep working hard, striving toward greater heights, and
+          building solutions that will positively influence Nigeria and the world at large.
+        </p>
+      </div>
+    </>
+  )
+}
 
-   export default About
+export default About
