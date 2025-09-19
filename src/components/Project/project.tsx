@@ -232,7 +232,10 @@ const Project = () => {
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <img src="/drones-1-1.png" alt="" />
+                  <a href="">
+                     <img src="/drones-1-1.png" alt="" />
+                  </a>
+                 
                   <div className='text-pro'>
                      <h1>Evotel</h1>
                      <p>
