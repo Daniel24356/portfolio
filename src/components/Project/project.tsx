@@ -54,7 +54,7 @@ const Project = () => {
                   <a href="https://fameplacehotels.com/">
                      <img src="/Logo.jpeg" alt="" />
                   </a>
-                 
+
                   <div className='text-pro'>
                      <h1>FAME'S PLACE</h1>
                      <p>
@@ -97,7 +97,10 @@ const Project = () => {
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <img src="/google-docs.png" alt="" />
+                  <a href="">
+                     <img src="/google-docs.png" alt="" />
+                  </a>
+
                   <div className='text-pro'>
                      <h1>Google Docs</h1>
                      <p>
@@ -252,9 +255,9 @@ const Project = () => {
                         </a>
                         <a target="_blank"
                            rel="noopener noreferrer" href="https://github.com/Daniel24356/Evtol-new">
- <div className='github-btn'>Visit</div>
-                           </a>
-                       
+                           <div className='github-btn'>Visit</div>
+                        </a>
+
                      </div>
                   </div>
 
@@ -295,9 +298,9 @@ const Project = () => {
                         </a>
                         <a target="_blank"
                            rel="noopener noreferrer" href="https://banking-angular.vercel.app/">
-                               <div className='github-btn'>Visit</div>
-                           </a>
-                       
+                           <div className='github-btn'>Visit</div>
+                        </a>
+
                      </div>
                   </div>
                   <div>
@@ -306,7 +309,7 @@ const Project = () => {
                            <div>
                               <div>
                                  <div>
-                                    
+
                                  </div>
                               </div>
                            </div>
