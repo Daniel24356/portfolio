@@ -141,7 +141,10 @@ const Project = () => {
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <img src="/ff-logo.png" alt="" />
+                  <a href="">
+                      <img src="/ff-logo.png" alt="" />
+                  </a>
+                 
                   <div className='text-pro'>
                      <h1>Future Fund</h1>
                      <p>
