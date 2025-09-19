@@ -20,6 +20,12 @@
 .hero strong{
     color: white;
 }
+@media screen and (max-width:1500px){
+   .hero{
+    margin: 270px 0;
+   }
+ 
+  }
 @media screen and (max-width:1170px){
    .hero{
     margin: 100px 0;

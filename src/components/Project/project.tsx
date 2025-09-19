@@ -45,7 +45,7 @@ const Project = () => {
 
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
                initial={{ x: 300, opacity: 0, scale: 0.7 }}
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
@@ -87,7 +87,7 @@ const Project = () => {
 
                </div>
 
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
                initial={{ x: 300, opacity: 0, scale: 0.7 }}
@@ -297,7 +297,19 @@ const Project = () => {
                        
                      </div>
                   </div>
-
+                  <div>
+                     <div>
+                        <div>
+                           <div>
+                              <div>
+                                 <div>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
 
             </motion.div>
