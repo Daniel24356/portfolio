@@ -278,7 +278,7 @@ const Project = () => {
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <a href="">
+                  <a href="https://banking-angular.vercel.app/">
                       <img src="/logo.png" alt="" />
                   </a>
                   <div className='text-pro'>
