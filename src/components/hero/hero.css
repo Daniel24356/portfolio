@@ -20,16 +20,16 @@
 .hero strong{
     color: white;
 }
-@media screen and (max-width:1500px){
+@media screen and (max-width:1550px){
    .hero{
-    margin: 270px 0;
+    margin: 260px 0;
    }
  
   }
 
 @media screen and (max-width:1280px){
    .hero{
-    margin: 160px 0;
+    margin: 140px 0;
    }
  
   }
