@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './project.css'
 import { motion } from 'framer-motion'
 
@@ -6,7 +7,7 @@ const Project = () => {
       <>
          <div className='project-div'>
             <h1 className='pro-text'>Projects</h1>
-            <motion.div
+            {/* <motion.div
                initial={{ x: 300, opacity: 0, scale: 0.7 }}
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
@@ -43,22 +44,24 @@ const Project = () => {
 
                </div>
 
-            </motion.div>
+            </motion.div> */}
 
-            {/* <motion.div
+            <motion.div
                initial={{ x: 300, opacity: 0, scale: 0.7 }}
                whileInView={{ x: 0, opacity: 1, scale: 1 }}
                className='pro-m'>
                <div className='project-indiv'>
-                  <img src="/Logo.jpeg" alt="" />
+                  <a href="">
+                     <img src="/Logo.jpeg" alt="" />
+                  </a>
+                 
                   <div className='text-pro'>
                      <h1>FAME'S PLACE</h1>
                      <p>
                         it is a realtime hotel website built with HTML, CSS , JavaScript and React.
                         This website features hotel booking, all the available rooms and their respective prices,
                         A checkout page for payment, admin dashboard for admins and login and signUp for users and other pages.
-                        I deployed this website using Cpanel and did the seo indexing mySelf. I designed their old website before
-                        it was changed. You can checkout the website fameplacehotels.com
+                        I deployed this website using Cpanel and did the seo indexing mySelf.
                      </p>
                      <div className='pro-skills'>
                         <a target="_blank"
@@ -78,7 +81,7 @@ const Project = () => {
                            <div className='js-btn'>React</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://flame-place-8y7n.vercel.app/">
+                           rel="noopener noreferrer" href="https://fameplacehotels.com/">
                            <div className='github-btn'>Visit</div>
                         </a>
 
@@ -87,7 +90,7 @@ const Project = () => {
 
                </div>
 
-            </motion.div> */}
+            </motion.div>
 
             <motion.div
                initial={{ x: 300, opacity: 0, scale: 0.7 }}
@@ -162,8 +165,8 @@ const Project = () => {
                            <div className='js-btn'>Dashboard</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://expo.dev/accounts/dan27/projects/Future-Find/builds/6695f5fe-ef0e-4bfb-89dc-3027c52aed2f">
-                           <div className='github-btn'>APK</div>
+                           rel="noopener noreferrer" href="https://banking-new-iota.vercel.app/">
+                           <div className='github-btn'>Visit</div>
                         </a>
 
                      </div>
@@ -190,11 +193,11 @@ const Project = () => {
                      </p>
                      <div className='pro-skills'>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Uchenna99/Live-Chat-Frontend">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/RealTimeChat">
                            <div className='github-btn'>React</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Uchenna99/Live-Chat-Frontend">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/RealTimeChat">
                            <div className='js-btn'>Typescript</div>
                         </a>
                         <a target="_blank"
@@ -206,7 +209,7 @@ const Project = () => {
                            <div className='github-btn'>Mongo Db</div>
                         </a>
                         <a target="_blank"
-                           rel="noopener noreferrer" href="https://github.com/Uchenna99/Live-Chat-Backend-2">
+                           rel="noopener noreferrer" href="https://github.com/Daniel24356/RealTimeChat">
                            <div className='github-btn'>Visit</div>
                         </a>
                      </div>
