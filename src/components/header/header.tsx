@@ -25,7 +25,7 @@ const Header = () => {
               <a href="#project">
               <p>Projects</p>
               </a>
-               <a href="https://daniel23456.tiiny.site">
+               <a href="https://drive.google.com/file/d/1GITO75v7okR0kQ06tpanNxYTjBDSYAWs/view?usp=sharing">
                <p>Resume</p>
                </a>
                 <a href="#contact">
