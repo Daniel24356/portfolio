@@ -128,7 +128,7 @@
     border-bottom-right-radius:5px;
  }
 
- @media screen and (max-width:1500px){
+ @media screen and (max-width:3050px){
    .percentage-box{
       display: grid;
       grid-template-columns: repeat(3,1fr);
