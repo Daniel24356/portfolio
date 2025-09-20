@@ -110,7 +110,7 @@
  .pro-m{
     margin-bottom: 180px;
  }
- @media screen and (max-width:1500px){
+ @media screen and (max-width:3050px){
    .project-div{
       margin: 180px auto;
       width: 1000px;
