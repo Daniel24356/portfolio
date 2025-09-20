@@ -1,112 +1,61 @@
-     import './percentage.css'
-    
-    const Percentage = () => {
-        return (
-            <>
-            <div className='percentage-box'>
+import { useEffect, useRef, useState } from "react";
+import "./percentage.css";
 
-                <div>
-                    <div className="load-box">
-                        <h4>Html5</h4>
-                        <h4>96%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colors"></div>
-                        <div className="sec-colors"></div>
-                    </div>
-                </div>
+const skills = [
+  { name: "Html5", percent: 96 },
+  { name: "Css", percent: 90 },
+  { name: "Mongo Db", percent: 83 },
+  { name: "Javascript", percent: 92 },
+  { name: "Typescript", percent: 78 },
+  { name: "React", percent: 94 },
+  { name: "Angular", percent: 92 },
+  { name: "Next js", percent: 95 },
+  { name: "Node js", percent: 91 },
+];
 
-                <div>
-                    <div className="load-box">
-                        <h4>Css</h4>
-                        <h4>90%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-color"></div>
-                        <div className="sec-color"></div>
-                    </div>
-                </div>
+const Percentage = () => {
+  const [animate, setAnimate] = useState(false);
+  const sectionRef = useRef(null);
 
-                <div>
-                    <div className="load-box">
-                        <h4>Mongo Db</h4>
-                        <h4>83%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorss"></div>
-                        <div className="sec-colorss"></div>
-                    </div>
-                </div>
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setAnimate(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.3 }
+    );
 
-                <div>
-                    <div className="load-box">
-                        <h4>Javascript</h4>
-                        <h4>92%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorsss"></div>
-                        <div className="sec-colorsss"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="load-box">
-                        <h4>Typescript</h4>
-                        <h4>78%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorssss"></div>
-                        <div className="sec-colorssss"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="load-box">
-                        <h4>React</h4>
-                        <h4>94%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorsssss"></div>
-                        <div className="sec-colorsssss"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="load-box">
-                        <h4>Angular</h4>
-                        <h4>92%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorsssss"></div>
-                        <div className="sec-colorsssss"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="load-box">
-                        <h4>Next js</h4>
-                        <h4>95%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorsssss"></div>
-                        <div className="sec-colorsssss"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="load-box">
-                        <h4>Node js</h4>
-                        <h4>91%</h4>
-                    </div>
-                    <div className="load-div">
-                        <div className="fir-colorsssss"></div>
-                        <div className="sec-colorsssss"></div>
-                    </div>
-                </div>
-
-            </div>
-            </>
-        )
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
     }
 
-    export default Percentage
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="percentage-box" ref={sectionRef}>
+      {skills.map((skill, index) => (
+        <div key={index} className="skill-item">
+          <div className="load-box">
+            <h4>{skill.name}</h4>
+            <h4>{skill.percent}%</h4>
+          </div>
+          <div className="load-div">
+            <div
+              className="fir-fill"
+              style={{
+                width: animate ? `${skill.percent}%` : "0%",
+                transition: "width 2s ease-in-out",
+              }}
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Percentage;
